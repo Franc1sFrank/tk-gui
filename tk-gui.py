@@ -1,5 +1,6 @@
 import tkinter as tk
 
 app = tk.Tk()
-tk.mainloop()
+app.title('App')
 
+tk.mainloop()
