@@ -4,7 +4,7 @@ app = tk.Tk()
 app.title('App')
 
 lb = tk.Label(app, text='You are so beautiful!', width=20, height=10, fg='red')
-lb.pack()
+lb.pack(side = tk.LEFT, padx = 5)
 
 
 def change_label():
