@@ -9,6 +9,9 @@ lb.pack()
 def change_label():
     lb.config(text = 'Thank you', fg = 'black')
 
+text = tk.Entry(app, width = 10)
+text.pack()
+
 bt = tk.Button(text = 'Exit', width = 10, bg = 'pink', command = change_label)
 bt.pack()
 
